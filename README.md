@@ -21,7 +21,7 @@ A simple online dictionary app that allows users to search for English words and
 
 ## 🌐 Live Demo
 
-![View the live project here!](https://laibatariq110.github.io/dictionary-app/))
+[View the live project here!](https://laibatariq110.github.io/dictionary-app/))
 
 ---
 
