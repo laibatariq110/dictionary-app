@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" id= "favicon" type="image/jpg" href="favicon.jpg">
+    <link rel="icon" id="spinner" href="spinner.jpg.gif">
+</head>
+<body>
+    <header>
+        <div class="nav-top">
+            <h2 id="logo-heading">Dictionary</h2>
+            <nav>
+                <ul class="menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                </ul>
+            </nav>
+            <input type="search" id="search-bar" name="search-bar" placeholder="English Dictionary">
+            <i class="fa-solid fa-magnifying-glass" id="myIcon"></i>
+        </div>
+    </header>
+    <main class="myMain">
+        <div id="loader"></div>
+        <span id="firstLine"></span>
+        <hr id="divider1" class="divider"><hr id="divider2" class="divider">
+        <h2 id="wordHeading">Search a word</h2>
+        <div id="description"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
