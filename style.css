@@ -23,6 +23,7 @@ body {
     display: flex;
     align-self: center;
 }
+
 ul {
     display: flex;
    margin-top: 24px;
@@ -71,6 +72,7 @@ ul a {
     cursor: pointer;
     
 }
+
 input[type="search"]::-webkit-search-cancel-button {
     appearance: none;
     width: 16px; 
@@ -111,4 +113,33 @@ input[type="search"]::-webkit-search-cancel-button {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+@media (max-width: 500px){
+    .nav-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    #logo-heading{
+        font-size: 0.9rem;
+    }
+    li{
+       display: none;
+    }
+    #search-bar{
+        width: 50vw;
+        height: 5vh;
 
+    }
+    #search-bar::placeholder{
+        font-size: 15px;
+        text-align: center;
+    }
+    .fa-magnifying-glass{
+        font-size: 1rem;
+        top: 25px;
+        right: 40px;
+    }
+    #wordHeading{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
