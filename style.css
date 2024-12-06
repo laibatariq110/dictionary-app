@@ -127,11 +127,16 @@ input[type="search"]::-webkit-search-cancel-button {
     #search-bar{
         width: 50vw;
         height: 5vh;
+        padding-left: 10px;
+        font-size: 10px;
 
     }
     #search-bar::placeholder{
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
+    }
+    input[type="search"]::-webkit-search-cancel-button {
+        margin-right: 10px;
     }
     .fa-magnifying-glass{
         font-size: 1rem;
